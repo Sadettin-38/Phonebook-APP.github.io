@@ -1,0 +1,27 @@
+<div class="container">
+	<h1>{{'Add New Contact'|translate}}</h1>
+	<form [formGroup]="NewContactForm" (ngSubmit)="addContact()">
+		<div class="profile-settings-container">
+			<label class="profile-settings-item">{{'First Name'|translate}}:
+				<input
+					formControlName="firstName"
+					type="text"
+                    required />
+			</label>
+			<label class="profile-settings-item">{{'Last Name'|translate}}:
+				<input
+					formControlName="lastName"
+					type="text"
+                    required />
+			</label>
+			<label class="profile-settings-item">{{'Enter Phone Number'|translate}}:
+				<input
+					formControlName="phoneNumber"
+					type="text"
+                    pattern="[0-9]+"
+                    required />
+            </label>
+		</div>
+		<button class="submit btn btn-block btn-primary" type="submit">{{'Submit'|translate}}</button>
+	</form>
+</div>

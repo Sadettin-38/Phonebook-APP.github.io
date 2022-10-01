@@ -1,0 +1,19 @@
+<div class="bg-image"></div>
+<div class="bg-content">
+    <cf-navbar></cf-navbar>
+    <div class="from-inline">
+        <span>
+            <select
+                class="form-control"
+                #selectedLang
+                (change)="switchLanguage(selectedLang.value)">
+                <option *ngFor="let language of translate.getLangs()"
+                    [value]="language"
+                    [selected]="language === translate.currentLang">
+                    {{language}}
+                </option>
+            </select>
+        </span>
+    </div>
+    <router-outlet></router-outlet>   
+</div>

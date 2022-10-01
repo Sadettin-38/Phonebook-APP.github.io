@@ -1,0 +1,37 @@
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+:root {
+	--text-color: white;
+	--border-radius: 2.5rem;
+	--small-border-radius: 8px;
+}
+
+.submit{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.my-animated-button {
+	height: 100%;
+	text-align: center;
+	padding: 5px;
+	margin: -4px 4px 4px -4px;
+	color: white;
+	border-radius: var(--small-border-radius);
+	user-select: none;
+}
+
+.my-animated-button:active {
+	margin: 0;
+	border: 3px solid black;
+}
+
+.my-background-animation {
+	animation: 10000ms ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+	0% 	{ background-color: rgba(0,0,0,0.7); }
+	50%	{ background-color: rgba(0,0,0,0); }
+	100% { background-color: rgba(0,0,0,0.7); }
+}

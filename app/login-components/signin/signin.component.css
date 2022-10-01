@@ -1,0 +1,30 @@
+.auth-wrapper {
+    margin: 4rem 10% 4rem auto;
+    width: 27rem;
+    font-size: 1.3rem;
+    border: 3px solid whitesmoke;
+    color: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+}
+
+input {
+    margin-bottom: .7rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.sign-in-div {
+    user-select: none;
+    background-color: rgba(0,0,0,.1);
+    border: 1px dotted gray;
+    text-align: center;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+button {
+    width: 100%;
+}

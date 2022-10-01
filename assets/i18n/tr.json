@@ -1,0 +1,34 @@
+{
+    "To Sign In Page": "Oturum Açma Ekranı İçin",
+    "Please Sign Up": "Lütfen Kaydolun",
+    "First Name": "Ad",
+    "Enter First Name": "Ad Giriniz",
+    "Last Name": "Soyad",
+    "Enter Last Name": "Soyad Giriniz",
+    "Phone Number": "Telefon Numarası",
+    "Enter Phone Number": "Telefon Numarası Giriniz",
+    "Password": "Şifre",
+    "Sign up": "Kaydol",
+
+    "Please sign in": "Lütfen oturum açın",
+    "To Create an Account": "Hesap Oluşturmak İçin",
+    "Sign in": "Oturum açın",
+
+    "Home": "Ev",
+    "New Contact": "Yeni Kişi",
+    "Search in Contacts": "Kişiler İçinde Ara",
+    "Profile Settings": "Profil Ayarları",
+    "Log Out": "Oturumu Sonlandır",
+    "Your Contacts": "Kişileriniz",
+    "Rank": "Sıra",
+    "Actions": "Eylemler",
+    "Edit": "Düzenle",
+    "Delete": "Sil",
+
+    "Add New Contact": "Yeni Kişi Ekle",
+    "Submit": "Onayla",
+
+    "New Password": "Yeni Şifre",
+
+    "Edit Contact": "Kişi Bilgisi Düzenle"
+}
