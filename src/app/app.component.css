@@ -1,0 +1,25 @@
+.bg-image {
+    background-image: url("../assets/images/phonebook_background.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    width: 100%;
+    min-height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.from-inline {
+    margin: 1rem 2rem;
+    width: 3rem;
+}
+
+.bg-content {
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 5%;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}

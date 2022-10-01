@@ -1,0 +1,36 @@
+.container {
+    height: auto;
+    width: 32rem;
+    margin: 20vh auto;
+    background-color: #2e4847;
+    color: #f5f6f7;
+    text-align: center;
+    padding: 20px;
+    border-radius: var(--border-radius);
+}
+
+.profile-settings-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0px 30px;
+}
+
+.profile-settings-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.submit{
+    border-radius: 8px;
+    border: 0px;
+    background-color: gainsboro;
+    margin: 1rem;
+    width: 80%;
+    padding: 4px 30px;
+    font-size: 14px;
+    font-weight: 600;
+}

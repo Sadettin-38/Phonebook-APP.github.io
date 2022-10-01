@@ -1,0 +1,28 @@
+.auth-wrapper {
+    margin-top: 4rem;
+    margin-left: 10%;
+    margin-bottom: 4rem;
+    width: 25rem;
+    font-size: 1.3rem;
+    border: 3px solid white;
+    color: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+}
+
+input {
+    margin-bottom: .7rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.sign-up-div {
+    user-select: none;
+    background-color: rgba(0,0,0,.1);
+    border: 1px dotted gray;
+    text-align: center;
+    width: 80%;
+    margin: 1rem auto;
+}

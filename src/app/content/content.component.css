@@ -1,0 +1,32 @@
+.table-template
+{
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    margin: 1rem auto;
+    max-width: 50rem;
+}
+
+.sort {
+    margin: .2rem .4rem;
+}
+
+h3 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--text-color); 
+    text-align: center;
+}
+
+.header {
+    border-bottom: 3px dashed var(--text-color);
+}
+
+th, td {
+    text-align: center;
+}
+
+* {
+    color: var(--text-color);
+}
+
+th:last-child {
+    padding-left: 3rem;
+}

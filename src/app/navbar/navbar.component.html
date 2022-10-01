@@ -1,0 +1,16 @@
+<nav *ngIf="this.authService.isLoggedIn" class="er">
+	<div class="left-div">
+		<div class="home my-animated-button" (click)="routeHome()">{{'Home'|translate}}</div>
+	</div>
+	<div class="sort-div">
+		<label for="sort"><input (click)="_123()" name="sort" type="radio">123</label>
+		<label for="sort"><input (click)="_Abc()" name="sort" type="radio">Abc</label>
+	</div>
+	<div class="language-div"></div>
+	<div class="right-div">
+		<div class="new-contact my-animated-button" (click)="addContact()">{{'New Contact'|translate}}</div>
+		<input (keyup)="onSubmit($event)" [(ngModel)]="theValue" class="search" type="text" placeholder="{{'Search in Contacts'|translate}}"/>
+		<div class="profile-settings my-animated-button" (click)="routeProfileSettings()">{{'Profile Settings'|translate}}</div>
+		<div class="log-out my-animated-button" (click)="logout()">{{'Log Out'|translate}}</div>
+  	</div>
+</nav>

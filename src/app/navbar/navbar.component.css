@@ -1,0 +1,52 @@
+:root {
+    --visible: none;
+}
+
+nav {
+    border: 1px solid black;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    background-color: #3a4442;
+    justify-content: space-between;
+}
+
+nav, .right-div {
+    display: flex;
+}
+
+.left-div {
+    margin-left: 2rem;
+}
+
+.sort-div {
+    padding: .3rem;
+}
+
+.right-div {
+    --visible: none;
+    margin-right: 2rem;
+}
+
+.right-div:hover {
+    --visible: inline-block;
+}
+
+.left-div, .sort-div, .right-div {
+    border-radius: var(--small-border-radius);
+    background-color:#E5E4E2;
+}
+
+.home {
+    background-color: blue;
+}
+
+.profile-settings {
+    background-color: green;
+}
+
+.log-out {
+    background-color: red;
+}
+
+.new-contact {
+    background-color: orangered;
+}

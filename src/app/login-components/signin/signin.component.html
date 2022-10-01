@@ -1,0 +1,28 @@
+<div class="auth-wrapper">
+    <div (click)="redirect2RegisterPage()" class="sign-in-div">
+        <i class="bi bi-arrow-left-square"></i>&nbsp;&nbsp;&nbsp; {{'To Create an Account'|translate}}
+    </div>
+    <form [formGroup]="signinForm" (ngSubmit)="loginUser()">
+        <h3>{{'Please sign in'|translate}}</h3>
+        <div class="form-group">
+            <label>{{'Phone Number'|translate}}</label>
+            <input
+                type="email"
+                class="form-control"
+                formControlName="PhoneNumber"
+                placeholder="{{'Enter Phone Number'|translate}}"
+                required
+            />
+        </div>
+        <div class="form-group">
+            <label>{{'Password'|translate}}</label>
+            <input
+                type="password"
+                class="form-control"
+                formControlName="Password"
+                placeholder="{{'Password'|translate}}"
+            />
+        </div>
+        <button type="submit" class="submit btn btn-block btn-primary">{{'Sign in'|translate}}</button>
+    </form>
+</div>

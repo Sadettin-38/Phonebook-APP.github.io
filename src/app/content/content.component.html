@@ -1,0 +1,34 @@
+<div class="table-template my-background-animation" *ngIf="this.authService.isLoggedIn">
+	<h3>---{{'Your Contacts'|translate}}---</h3>
+	<table id="table" class=" table">
+		<thead class="header">
+			<th>{{'Rank'|translate}}</th>
+			<th>{{'First Name'|translate}}</th>
+			<th>{{'Last Name'|translate}}</th>
+			<th>{{'Phone Number'|translate}}</th>
+			<th>{{'Actions'|translate}}</th>
+		</thead>
+		<tbody class="body">
+			<tr  *ngFor="let item of ContactsList; let i = index">
+				<td>{{i + 1}}</td>
+				<td>{{item.firstName}}</td>
+				<td>{{item.lastName}}</td>
+				<td>{{item.phoneNumber}}</td>
+				<td class="actions">
+					<button
+						class="btn btn-outline-warning" 
+						(click)="editContact(item)">
+						<i class="bi bi-pen-fill"></i>
+						{{'Edit'|translate}}
+					</button>
+					<button 
+						class="btn btn-outline-danger"
+						(click)="delContact(item.contactsId)">
+						<i class="bi bi-trash-fill"></i>
+						{{'Delete'|translate}}
+					</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
